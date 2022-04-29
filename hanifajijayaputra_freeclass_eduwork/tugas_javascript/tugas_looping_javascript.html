@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tugas Javascript Looping Hanif Ajijaya Putra</title>
+</head>
+<body>
+	<script type="text/javascript">
+//		for (i = 0; i < 10; i++) {
+//			document.write("<p>Perulangan ke "+i+" </p>");
+//		}
+
+		let i = 0;
+		do {
+  			i += 1;
+  			document.write("<p>Perulangan do while "+i+" </p>");
+  			console.log(i);
+		} while (i < 5);
+
+	</script>
+</body>
+</html>
+
+
+<form name="selectForm">
+  <p>
+    <label for="musicTypes">Pilih musik:</label>
+    <select name="musicTypes" multiple="multiple">
+      <option selected="selected">R&B</option>
+      <option>Jazz</option>
+      <option>Blues</option>
+      <option>New Age</option>
+      <option>Classical</option>
+      <option>Opera</option>
+    </select>
+  </p>
+  <p><input id="btn" type="button" value="Berapa banyak yang terpilih?" /></p>
+</form>
+
+<script>
+function howMany(selectObject) {
+  let numberSelected = 0;
+  for (let i = 0; i < selectObject.options.length; i++) {
+    if (selectObject.options[i].selected) {
+      numberSelected++;
+    }
+  }
+  return numberSelected;
+}
+
+let btn = document.getElementById('btn');
+btn.addEventListener('click', function() {
+  alert('Jumlah yang terpilih: ' + howMany(document.selectForm.musicTypes));
+});
+</script>

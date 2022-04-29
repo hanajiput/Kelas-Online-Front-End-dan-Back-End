@@ -1,0 +1,25 @@
+.row .profilTengah {
+	width: 1000;
+	float: left;
+	padding: 0px 0px 0px 0px;
+	margin-left: 8px;
+	position: relative;
+}
+
+.row .profilTengah .text1 {
+	position: absolute;
+	
+	top: 200px;
+	right: 200px;
+	color: white;
+}
+
+.content {
+	background: white;
+	height: 300px;
+	padding-top: 100px;
+}
+
+.warna {
+	color: #33bdff;
+}

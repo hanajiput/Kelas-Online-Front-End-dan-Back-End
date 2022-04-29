@@ -1,0 +1,45 @@
+.container {
+	width: 100%;
+	background-color: #F7F7F7;
+}
+
+.table {
+	margin-left: 200px;
+	background-color: white;
+	padding: 10px solid #F7F7F7;
+	border-top: 10px solid #F7F7F7;
+	border-bottom: 10px solid #F7F7F7;
+	border-left: 10px solid #F7F7F7;
+	border-right: 10px solid #F7F7F7;
+}
+
+.button {
+	color: white;
+	background: #33bdff;
+	border: none;
+	padding: 10px 125px;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+.color {
+	background-color: #D3D3D3;
+}
+
+.button2 {
+	background: white;
+	border: none;
+	color: #00008B;
+	cursor: pointer;
+}
+.table2 {
+	margin-top: 20px;
+}
+
+.button3 {
+	background: white;
+	border: none;
+	color: #33beff;
+	cursor: pointer;
+}
+
